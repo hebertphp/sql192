@@ -1,6 +1,8 @@
+DROP TABLE IF EXISTS funcionario;	
+
 create table funcionario(
  id_funcionario int not null primary key auto_increment,
- nome varchar (50) not null,
+ nome varchar (100) not null,
  salario decimal (10,2) not null,
  departamento varchar(40) not null,
  dependente int,
@@ -18,12 +20,12 @@ values ('Manuela',5500,'TI','1988-03-07',1);
 insert into funcionario (nome, salario, departamento,dt_nascimento,dependente) 
 values ('Roberta',4500,'TI','1987-09-12',2);
 insert into funcionario (nome, salario, departamento,dt_nascimento,dependente) 
-values ('Ramon',4200,'TI','1988-12-22',3);
+values ('Ramon',4200.30,'TI','1988-12-22',3);
 
 insert into funcionario (nome, salario, departamento,dt_nascimento,dependente) 
-values ('Astolfo',7800,'DIRETORIA','1979-03-15',3);
+values ('Astolfo',7800.55,'DIRETORIA','1979-03-15',3);
 insert into funcionario (nome, salario, departamento,dt_nascimento,dependente) 
-values ('Mariana',7800,'DIRETORIA','1975-03-15',4);
+values ('Mariana',7800.55,'DIRETORIA','1975-03-15',4);
 
 insert into funcionario (nome, salario, departamento,dt_nascimento) 
 values ('Anacleto',3500,'COMERCIAL','1979-09-25');
