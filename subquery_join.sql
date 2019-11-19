@@ -40,7 +40,7 @@ insert into cliente (id_cliente,nome,uf) values
    (1005,'Josicleide','RJ');
 
 insert into pedido (valor, id_cliente) values
-	(500.00,1001),
+	(500.50,1001),
 	(300.50,1002),
 	(190.50,1003),
 	(200.50,1004);
